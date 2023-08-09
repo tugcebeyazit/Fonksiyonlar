@@ -1,0 +1,11 @@
+Kelimeyi  Harf Harf Yazdýrma 
+
+Not: Burada harfleri tek tek yazdýrabilmemiz için bir döngü oluþturmamýz gerekmetedir.
+
+A1: string str
+A2: str="Tuðçe Beyazit Yardýmcý"
+A3: sayýsal i
+A4: Döngü for (i=0 to len(str)-1) -1 yapmaktaki amaç 1den 22 harflik karakterlerin indis sayýsý 0 dan baþladýðý için hata vermemesi adýna 21 karaktere düþürüyoruz
+	yaz char(str,i) => her harfi tek tek yazdýr i bitene kadar
+    Döngü sonu
+A5: Bitir
