@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-29 11:01:27 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yOTsxMDozNzoyMiDDllM7Mzg1MA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yOTsxMTowMToyNyDDllM7MTszOTU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, sayi3" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;2. Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <output expression="&quot;3. Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi3"/>
+            <call expression="ortalama(sayi1,sayi2,sayi3)"/>
+        </body>
+    </function>
+    <function name="ortalama" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+            <parameter name="c" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Sayi1=&quot;&amp;a" newline="True"/>
+            <output expression="&quot;Sayi2=&quot;&amp;b" newline="True"/>
+            <output expression="&quot;Sayi3=&quot;&amp;c" newline="True"/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <assign variable="ortalama" expression="(a+b+c)/3"/>
+            <output expression="&quot;Ortalama=&quot;&amp;ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

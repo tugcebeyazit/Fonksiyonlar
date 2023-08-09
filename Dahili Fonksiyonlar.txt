@@ -1,0 +1,22 @@
+Dahili Fonksiyonlar
+
+hazýr fonksiyonlarý kullanarak bir çok iþlemi hýzlýca yapabiliriz 
+Flogrithm programý için Googla flowgrathim function yazýp aratabiliriz
+
+Fonksiyonlar 3 e ayrýlýr 
+
+1. matematiksel
+Not: açýsal deðerleri ilk önce radyana çevirip daha sonra iþlem yapabiliriz bu aþamadan sonra trigonometrik deðerleri hesaplanabilir
+örneðin 1 derece = derece * pi/180
+30 derece= 30*3,14/180=0.523..
+
+
+2. string - metinsel: metinsel ifadele üzerinde iþlem yapmayý saðla örneðin girilen bir ifadenin uzunluðunu ölçer
+Len(s): girilen string ifadenin uzunluðunu verir.
+Char(s,i): girilen s ifadesinin ininci karakterini verir ilk karakter indisi 0'dan baþlar
+
+ascýý kodlarý her katakterin bilgisayar dilinde bir karþýlýðý vardýr bunlara klavye üzerinden ulaþamasak bile
+bu kodlar aracýlýðý ile ulaþabiliriz.
+
+3. veri tipi dönüþümü yapanlar
+hazýr fonksiyonlardan tip dönüþümü yapacaðýz veri tipi dönüþümü(string,tamsayý,reel vb.)

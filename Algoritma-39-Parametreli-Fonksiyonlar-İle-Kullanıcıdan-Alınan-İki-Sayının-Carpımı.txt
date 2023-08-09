@@ -1,0 +1,30 @@
+Kullanýcýdan parametre alan ve geri döndüren fonk.
+
+Soru: Kullanýcýdan alýnan 2 sayýnýn çarpýmýný yapan fonk.
+
+A1: baþla
+A2: sayýsal sayi1, sayi2
+A3: yaz "1. sayýyý giriniz:"
+A4: oku sayi1
+A5: yaz "2. sayýyý giriniz:"
+A6: oku sayi2
+
+-------------------------------------------------------
+
+Fonksiyon
+
+carpma(a,b)=> buradaki a ve b parametredir yani ana programdaki kullanýcýnýn girmiþ
+girmiþ olduðu deðerleri fonksiyonun içine alýr
+
+yaz "Sayý 1="& a
+yaz "Sayý 2="& b 
+
+buradaki sýra önemlidir 
+
+sayýsal carpma
+carpma=a*b
+yaz "Çarpma="&carpma
+
+-------------------------------------------------------
+
+A7: çaðýr (sayi1,sayi2)

@@ -1,0 +1,26 @@
+Fonksiyonlar:
+
+Ana programdan baðýmsýz olarak çalýþan küçük kod blogrýdýr, Ana program tarafýndan 
+gerekli görüldüðünde çaðýrýlarak ana programa dahil edilir
+Ana programdan ayrý olarak yazýlýr ve kod düzenliliði açýsýndan önrmlidir
+Programý anlamlý parçalara bölmüþ oluyoruz
+Örneðin web sitesi tasarlarken kullanýcý giriþiyle ilgili sorunda
+tüm kodlarý çekmek yerine kullanýcý fonksiyonundaki kodlarý çekerek gerekli düzenleme
+yapýlabilir.
+
+Kombinsayon hesaplarken;
+C(n,r)= n!/(n-r)!*r! => bu aþamada ayrý 3 faktöriyel alýnmasý geremektedir
+yani 3 ayrý döngü oluþturmak gerekirdi bunun yerine fonk. kod bloðu oluþturup,
+istediðimiz kadar çaðýrabiliriz.
+
+Fonksiyonlarý ikiye ayýrabiliriz parametre alan ve parametre almayan
+Kullanýcýdan bilgi alan ve almayan demektir
+
+Flowgorithm programýnda fonk. oluþturmak için üst sekmede ana yazan yerde yön tuþuna 
+bastýðýmýzda fonksiyon için bir pencere açýlýyor burada istenilen verileri girebiliriz
+
+Fonksiyonlar tek baþýna çalýþmaz çaðýrýldýðý yerden komutlarý icra eder
+Ana programa gelip çaðýrma etiketi ile yazmýþ olduðumuz fonksiyonun ismini yazarak çaðýralým.
+
+Örneðin yapmýþ olduðumuz selamlama fonksiyonu parametre almayan ve ana programýn içerisine 
+herhangi bir bilgi göndermeyen programdýr. 

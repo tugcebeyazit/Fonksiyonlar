@@ -1,0 +1,33 @@
+Soru: Kullanýcýdan alýnan parametrenin ana program deðerine döndüren kombinsayon hesabý
+yapan program
+
+Ana Program
+
+
+A1: Baþla
+A2: sayýsal n, r, nfakt, rfakt, neksirfakt (tamsayý)
+A3: sayýsal sonuc (reel)
+A4: yaz "n sayýsýný giriniz:"
+A5: oku n
+A6: yaz "r sayýsýný giriniz:"
+A7: oku r
+A8: nfakt=faktoriyelhesapla(n) => faktöriyel fonk gelen deðer n fakt hesabý
+A9: rfakt=faktoriyelhesapla(r) => faktöriyel fonk gelen deðer r fakt hesabý
+A10: neksirfakt=faktoriyelhesapla(n-r) => faktöriyel fonk gelen deðer n-r fakt hesabý
+A11: sonuc=nfakt/(rfakt*neksirfakt)
+A12: yaz "Sonuç="&sonuc
+
+------------------------------------------------------------------------
+
+Fonksiyon
+
+faktoriyelhesapla(sayi) buradaki faktöriyelhesapla ana programdan gelen fonk. adýdýr sayi ise n,r,n-r dir
+			tabi bu fonksiyon ana programa bir sonuç döndüreceði için faktoriyelsonuc atamasý yapýlýr
+sayýsal foksiyonSonuc, i
+FaktoriyelSonuc=1
+döngü for (i=1 to sayý)
+	faktoriyelsonuc=faktoriyelsonuc*i
+döngü bitir
+Döndür FaktoriyelSonuc "Faktöriyelin çaðýrýldýðý yere sonucunu döndürür burada ekrana yazdýrmaya gerek yoktur"
+
+------------------------------------------------------------------------

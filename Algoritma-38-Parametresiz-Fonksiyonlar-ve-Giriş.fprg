@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-26 04:12:52 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yNjswMzo1MjoxNyDDllM7Mzg1MA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yNjswNDoxMjo1MiDDllM7MTszOTU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="selamlama"/>
+        </body>
+    </function>
+    <function name="selamlama" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sitemize Ho&#351;geldiniz&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

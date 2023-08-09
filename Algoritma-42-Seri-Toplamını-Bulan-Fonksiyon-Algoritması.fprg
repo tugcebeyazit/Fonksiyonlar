@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-04 11:59:43 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wNDsxMTozMjoyMyDDllM7Mzg0MQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wNDsxMTo1OTo0MyDDllM7MTszOTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n, k, m, j, l, toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;i say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="i"/>
+            <output expression="&quot;n say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;k say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="k"/>
+            <output expression="&quot;m say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="m"/>
+            <output expression="&quot;j say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="j"/>
+            <output expression="&quot;l say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="l"/>
+            <assign variable="toplam" expression="seriToplami(i,n)+seriToplami(k,m)+seriToplami(j,l)"/>
+            <output expression="&quot;Toplam:&quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+    <function name="seriToplami" type="Integer" variable="SeriToplam">
+        <parameters>
+            <parameter name="baslangic" type="Integer" array="False"/>
+            <parameter name="bitis" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="SeriToplam, a" type="Integer" array="False" size=""/>
+            <assign variable="SeriToplam" expression="0"/>
+            <for variable="a" start="baslangic" end="bitis" direction="inc" step="1">
+                <assign variable="SeriToplam" expression="SeriToplam+a"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

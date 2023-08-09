@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-04 11:25:33 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wNDsxMToxNDowMiDDllM7MzgzOA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wNDsxMToyNTozMyDDllM7MTszOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, r, nfakt, rfakt, neksirfakt" type="Integer" array="False" size=""/>
+            <declare name="Sonuc" type="Integer" array="False" size=""/>
+            <output expression="&quot;n say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;r say&#305;s&#305;n&#305; giriniz:&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="nfakt" expression="faktoriyelhesapla(n)"/>
+            <output expression="&quot;n!:&quot;&amp;nfakt" newline="True"/>
+            <assign variable="rfakt" expression="faktoriyelhesapla(r)"/>
+            <output expression="&quot;r!:&quot;&amp;rfakt" newline="True"/>
+            <assign variable="neksirfakt" expression="faktoriyelhesapla(n-r)"/>
+            <output expression="&quot;(n-r)!:&quot;&amp;neksirfakt" newline="True"/>
+            <assign variable="Sonuc" expression="nfakt/(rfakt*neksirfakt)"/>
+            <output expression="&quot;Sonu&#231;:&quot;&amp;sonuc" newline="True"/>
+        </body>
+    </function>
+    <function name="faktoriyelhesapla" type="Integer" variable="faktoriyelsonuc">
+        <parameters>
+            <parameter name="sayi" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="faktoriyelsonuc, i" type="Integer" array="False" size=""/>
+            <assign variable="faktoriyelsonuc" expression="1"/>
+            <for variable="i" start="1" end="sayi" direction="inc" step="1">
+                <assign variable="faktoriyelsonuc" expression="faktoriyelsonuc*i"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

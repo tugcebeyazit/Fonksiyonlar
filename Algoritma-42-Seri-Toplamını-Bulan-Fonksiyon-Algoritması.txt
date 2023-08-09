@@ -1,0 +1,31 @@
+Soru: Belli bir baþlangýç ve bitiþ deðeri olan serilerin toplamlarýný bulan fonksiyonlu algoritma
+
+örneðin i=3 n=15 + k=10 m=40 + j=15 l=70 toplamýný bulan algoritma 
+
+BURADA KULLANICIDANN 6 FARKLI DEÐER ÝSTEYECEÐÝZ FONKSÝYON TANIMLARKEN 2 FARKLI DEÐER ÝSTEYECEÐÝZ
+
+A1: sayýsal i,n,k,m,j,l,toplam
+A2: toplam=0
+A2: yaz "i sayýsýný giriniz:"
+A3: oku i
+A4: yaz "n sayýsýný giriniz:"
+A5: oku n
+A6: yaz "k sayýsýný giriniz:"
+A7: oku k
+A8: yaz "m sayýsýný giriniz:"
+A9: oku m
+A10: yaz "j sayýsýný giriniz:"
+A11: oku j
+A12: yaz "l sayýsýný giriniz:"
+A13: oku l
+A14: toplam = seriToplami(i,n) + seriToplami(k,m) + seriToplami(j,l)
+a15 yaz "Toplam"&toplam
+----------------------------------------------------------------------------------------------------
+
+Fonksiyon
+
+Seritoplamý (baslangic,bitiþ)
+seritoplam, a(sayac)
+seriToplam=0
+dongu a baslangýc to bitiþ
+	seriToplam=seriToplam+a

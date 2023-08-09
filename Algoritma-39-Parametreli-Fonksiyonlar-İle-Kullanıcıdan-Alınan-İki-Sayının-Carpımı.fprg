@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-27 07:28:10 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yNzswNjozNToyNCDDllM7Mzg1Mw=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yNzswNzoyODoxMCDDllM7MTszOTU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;2. Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <call expression="Carpma(sayi1,sayi2)"/>
+        </body>
+    </function>
+    <function name="Carpma" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Sayi1=&quot;&amp;a" newline="True"/>
+            <output expression="&quot;Say&#305;2=&quot;&amp;b" newline="True"/>
+            <declare name="carpma" type="Integer" array="False" size=""/>
+            <assign variable="carpma" expression="a*b"/>
+            <output expression="&quot;&#199;arpma:&quot;&amp;carpma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

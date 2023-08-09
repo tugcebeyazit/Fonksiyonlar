@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-08 11:32:20 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wODsxMToyMjoyOCDDllM7Mzg0OQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wODsxMTozMjoyMCDDllM7MjszOTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sin(30) 30 dereceyi a&#231;&#305; cinsinden yazarsak yanl&#305;&#351; sonu&#231; elde ederiz ilk olarak bunu radyana &#231;evirmeliyiz bunu da derece = pi/180 bir sonraki ad&#305;mda g&#246;sterilecek&quot;" newline="True"/>
+            <output expression="Sin(30*3.14/180)" newline="True"/>
+            <output expression="Cos(60*3.14/180)" newline="True"/>
+            <output expression="&quot;Abs: mutlak de&#287;eri verir, sqrt: karak&#246;k de&#287;erini verir&quot;" newline="True"/>
+            <output expression="Abs(-10)" newline="True"/>
+            <output expression="sqrt(16)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

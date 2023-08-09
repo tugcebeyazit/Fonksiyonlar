@@ -1,0 +1,26 @@
+Soru: Kullanýcýdan alýnan 3 farklý sayýnýn ortalamasýný hesaplayan parametreli algoritma
+
+Not: Programýn akýþýný fonksiyonlu çözünüz
+
+A1: Baþla
+A2: sayisal sayi1,sayi2,sayi3, ortalama
+A3: yaz "1. sayýyý Giriniz:"
+A4: oku sayi1
+A5: yaz "2. sayýyý Giriniz:"
+A6: oku sayi2
+A7: yaz "3. sayýyý Giriniz:"
+A8: oku sayi3
+
+Fonksiyon
+
+Ortalama Hesaplama(Tamsayý a,b,c)
+yaz "Sayi1=" & a
+yaz "Sayi2=" & b
+yaz "Sayi3=" & c
+
+Reel ortalama
+ortalama = (a+b+c)/3
+yaz "Ortalama="& ortalama
+
+A9: çaðýr (ortalama sayi1,sayi2,sayi3)
+A10: bitir
