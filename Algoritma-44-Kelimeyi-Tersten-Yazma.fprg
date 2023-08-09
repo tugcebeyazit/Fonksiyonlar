@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-09 10:47:41 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wOTsxMDowODoxNyDDllM7Mzg1MQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wOTsxMDo0Nzo0MSDDllM7MjszOTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="str, ters, duz" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="ters" expression="&quot;&quot;"/>
+            <assign variable="duz" expression="&quot;&quot;"/>
+            <assign variable="str" expression="&quot;Tu&#287;&#231;e Beyazit Yard&#305;mc&#305;&quot;"/>
+            <for variable="i" start="0" end="len(str)-1" direction="inc" step="1">
+                <assign variable="duz" expression="duz&amp;Char(str,i)"/>
+                <assign variable="ters" expression="Char(str,i)&amp;ters"/>
+            </for>
+            <output expression="duz" newline="True"/>
+            <output expression="ters" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

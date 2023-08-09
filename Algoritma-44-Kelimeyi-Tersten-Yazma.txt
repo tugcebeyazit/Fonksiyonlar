@@ -1,0 +1,14 @@
+Kelimeyi Tersten Yazma
+
+Not: ters deðiþkenini de toplam ve çarpmada olduðu gibi önceden ilk deðerini belirlemeliyiz.
+
+A1: baþla
+A2: string str, ters
+A3: sayýsal i
+A4: ters=""  => "" içi boþ anlamýna gelir
+A5: str="Tuðçe Beyazit Yardýmcý"
+A6: döngü for i=0 to len(str)-1
+	 ters=Char(str,i)&ters
+    Döngü Bitir
+A7: yaz ters
+A8: bitir.
