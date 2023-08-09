@@ -20,3 +20,12 @@ bu kodlar aracýlýðý ile ulaþabiliriz.
 
 3. veri tipi dönüþümü yapanlar
 hazýr fonksiyonlardan tip dönüþümü yapacaðýz veri tipi dönüþümü(string,tamsayý,reel vb.)
+
+ToChar: sayýsal olarak giririlen ascii kodunun karþýlýðýný verir. 
+ToCode: karakterin ascii karþýlýðýný verir.
+To Fixed(r,i): reel bir sayýnýn ondalýk kýsmýnýn kaç haneye kadar yuvarlanacaðýný belirler parasal iþlemlerde kullanýlýr
+ToInteger(n): string tipindekii bir ifadeyi sayýsal integer tipine çevirir. örneðin metinsel bir sayýyý sayýsal ifadeye çevirir
+Örneðin string olan bir ifadeyi ToInteger("123") bu metinsel bir ifadedir ama artýk dönüþüm olduðu için sayýsal ifade 
+deðerindedir.
+ToReal(n): string tipinde olan sayýsal bir ifadeyi reel sayýya çevirme
+ToString(n): Sayýsal bir veriyi string tipine dönüþtürür.

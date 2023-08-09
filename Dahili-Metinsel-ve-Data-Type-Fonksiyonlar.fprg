@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-09 08:32:48 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wOTswNDoxOTo1NSDDllM7Mzg1OA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wOC0wOTswODozMjo0OCDDllM7MTI7NDAxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="len girilen ifadenin uzunlu&#287;unu ekrana yazar"/>
+            <output expression="Len(&quot;Tugce&quot;)" newline="True"/>
+            <comment text="char girilen ifadenin se&#231;ilen indisindeki karakteri ekrana yazd&#305;r&#305;r."/>
+            <output expression="Char(&quot;Tugce&quot;,4)" newline="True"/>
+            <comment text="girilen say&#305;sal ifadenin ascii tablosundaki karakter kar&#351;&#305;l&#305;&#287;&#305;n&#305; verir. Flowgrithm program&#305; her ascii kodunu ekrana yazd&#305;ramayabilir"/>
+            <output expression="ToChar(65)" newline="True"/>
+            <comment text="Girilen karakterin ascii tablosundaki kodunu ekrana yazd&#305;r&#305;r"/>
+            <output expression="ToCode(&quot;A&quot;)" newline="True"/>
+            <comment text="girilen ondal&#305;kl&#305; say&#305;n&#305;n ondal&#305;k k&#305;sm&#305;n&#305;n istenilen kadar yuvarlanmas&#305;n&#305; sa&#287;lar &#246;rne&#287;in pi say&#305;s&#305;n&#305; virg&#252;lden sonra 3 basamak yuvarlamak istersek 3,14159 olan say&#305;y&#305; 3,142 olarak yuvarlar."/>
+            <output expression="ToFixed(3.14159,3)" newline="True"/>
+            <output expression="ToFixed(3.14149,3)" newline="True"/>
+            <comment text="ToInteger metinsel bir ifadeyi say&#305;sal bir de&#287;ere &#231;evirir."/>
+            <output expression="ToInteger(&quot;123&quot;)" newline="True"/>
+            <call expression="Cevir"/>
+        </body>
+    </function>
+    <function name="Cevir" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="str" type="String" array="False" size=""/>
+            <assign variable="str" expression="&quot;10&quot;"/>
+            <assign variable="sayi" expression="ToInteger(str)"/>
+            <output expression="sayi+10" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
